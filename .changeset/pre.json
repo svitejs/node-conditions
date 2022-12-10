@@ -2,7 +2,7 @@
   "mode": "pre",
   "tag": "alpha",
   "initialVersions": {
-    "node-conditions": "1.0.0"
+    "node-conditions": "0.9.9"
   },
   "changesets": [
     "eleven-rocks-divide"
