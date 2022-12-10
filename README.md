@@ -17,10 +17,9 @@ See [package readme](packages/node-conditions/README.md#usage)
 
 ## Packages
 
-| Package                                            | Changelog                                             |
-| -------------------------------------------------- | ----------------------------------------------------- |
+| Package                                     | Changelog                                          |
+| ------------------------------------------- | -------------------------------------------------- |
 | [node-conditions](packages/node-conditions) | [Changelog](packages/node-conditions/CHANGELOG.md) |
-
 
 ## Development
 
@@ -30,10 +29,9 @@ See [package readme](packages/node-conditions/README.md#usage)
 - run `pnpm changeset` to add a changeset
 - send PR
 
-
 ## Credits
 
-- Ben McCann for the genius idea to export booleans via conditions in  [esm-env](https://github.com/benmccann/esm-env)
+- Ben McCann for the genius idea to export booleans via conditions in [esm-env](https://github.com/benmccann/esm-env)
 
 ## License
 

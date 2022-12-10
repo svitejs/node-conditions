@@ -5,6 +5,7 @@ node conditions as boolean flags.
 ## usage
 
 ### esm
+
 ```js
 // via named export
 import { BROWSER } from 'node-conditions';
@@ -24,6 +25,7 @@ import isBrowser from 'node-conditions/browser';
 ```
 
 ### cjs
+
 ```js
 // via mapped require
 const { BROWSER } = require('node-conditions');

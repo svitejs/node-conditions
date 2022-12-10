@@ -1,6 +1,8 @@
 {
-  "mode": "pre",
-  "tag": "alpha",
-  "initialVersions": {},
-  "changesets": []
+	"mode": "pre",
+	"tag": "alpha",
+	"initialVersions": {
+		"node-conditions": "1.0.0"
+	},
+	"changesets": []
 }

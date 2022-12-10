@@ -42,8 +42,9 @@ jobs:
           pnpm install --frozen-lockfile --prefer-offline --ignore-scripts
       - name: lint
         run: pnpm lint:check
+      - name: format
+        run: pnpm format:check
       - name: audit
-        if: (${{ success() }} || ${{ failure() }})
         run: pnpm audit
 
   test:

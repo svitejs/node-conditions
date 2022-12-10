@@ -9,6 +9,7 @@
 		"lint:check": "eslint --ignore-path .gitignore .",
 		"lint": "pnpm lint:check --fix",
 		"generate": "node scripts/generate.js",
+		"test": "uvu tests",
 		"release": "pnpm changeset publish"
 	},
 	"keywords": [],
@@ -28,7 +29,8 @@
 		"husky": "^8.0.2",
 		"lint-staged": "^13.1.0",
 		"node-conditions": "workspace:*",
-		"prettier": "^2.8.1"
+		"prettier": "^2.8.1",
+		"uvu": "^0.5.6"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"

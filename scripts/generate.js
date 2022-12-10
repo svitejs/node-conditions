@@ -2,7 +2,7 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { conditions } from '../packages/node-conditions/conditions.js';
 
-function name(condition) {
+export function name(condition) {
 	return condition.toUpperCase().replace(/[^A-Z]+/g, '_');
 }
 
