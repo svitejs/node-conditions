@@ -1,31 +1,20 @@
-# @svitejs/node-conditions
+# node-conditions
 
 [![npm version](https://img.shields.io/npm/v/node-conditions)](https://www.npmjs.com/package/node-conditions)
 [![CI](https://github.com/svitejs/node-conditions/actions/workflows/ci.yml/badge.svg)](https://github.com/svitejs/node-conditions/actions/workflows/ci.yml)
 
-The official [Svelte](https://svelte.dev) plugin for [Vite](https://vitejs.dev).
+A small utility to read node conditions as boolean flags, useful for conditionally including or excluding code.
 
 ## Installation
 
 ```bash
-npm install --save-dev @svitejs/node-conditions
+npm install --save-dev node-conditions
 ```
 
 ## Usage
 
-```js
-// vite.config.js
-import { defineConfig } from 'vite';
-import { svelte } from '@svitejs/node-conditions';
+See [package readme](packages/node-conditions/README.md#usage)
 
-export default defineConfig({
-  plugins: [
-    svelte({
-      /* plugin options */
-    })
-  ]
-});
-```
 ## Packages
 
 | Package                                            | Changelog                                             |
