@@ -1,0 +1,41 @@
+{
+	"extends": ["eslint:recommended", "plugin:n/recommended"],
+	"parserOptions": {
+		// Only ESLint 6.2.0 and later support ES2020.
+		"ecmaVersion": 2020
+	},
+	"rules": {
+		"n/no-extraneous-require": [
+			"error",
+			{
+				"allowModules": ["node-conditions"]
+			}
+		],
+		"n/no-extraneous-import": [
+			"error",
+			{
+				"allowModules": ["node-conditions"]
+			}
+		],
+		"n/no-missing-require": [
+			"error",
+			{
+				"allowModules": ["node-conditions"]
+			}
+		],
+		"n/no-missing-import": [
+			"error",
+			{
+				"allowModules": ["node-conditions"]
+			}
+		],
+		"n/exports-style": ["error", "module.exports"],
+		"n/prefer-global/buffer": ["error", "always"],
+		"n/prefer-global/console": ["error", "always"],
+		"n/prefer-global/process": ["error", "always"],
+		"n/prefer-global/url-search-params": ["error", "always"],
+		"n/prefer-global/url": ["error", "always"],
+		"n/prefer-promises/dns": "error",
+		"n/prefer-promises/fs": "error"
+	}
+}

@@ -1,0 +1,10 @@
+export { default as BROWSER } from 'node-conditions/browser';
+export { default as NODE } from 'node-conditions/node';
+export { default as NODE_ADDONS } from 'node-conditions/node-addons';
+export { default as DENO } from 'node-conditions/deno';
+export { default as DEVELOPMENT } from 'node-conditions/development';
+export { default as TEST } from 'node-conditions/test';
+export { default as PRODUCTION } from 'node-conditions/production';
+export { default as ASTRO } from 'node-conditions/astro';
+export { default as SOLID } from 'node-conditions/solid';
+export { default as SVELTE } from 'node-conditions/svelte';

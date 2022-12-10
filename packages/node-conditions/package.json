@@ -1,0 +1,155 @@
+{
+	"name": "node-conditions",
+	"version": "1.0.0",
+	"description": "node conditions as boolean flags",
+	"keywords": [
+		"conditions"
+	],
+	"author": "dominikg",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/svitejs/node-conditions.git",
+		"directory": "packages/node-conditions"
+	},
+	"bugs": {
+		"url": "https://github.com/svitejs/node-conditions/issues"
+	},
+	"homepage": "https://github.com/svitejs/node-conditions#readme",
+	"engines": {
+		"node": "^14 || ^16 || >=18"
+	},
+	"files": [
+		"false.cjs",
+		"false.mjs",
+		"true.cjs",
+		"true.mjs",
+		"index.mjs",
+		"index.cjs",
+		"index.d.ts"
+	],
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"import": "./index.mjs",
+			"require": "./index.cjs"
+		},
+		"./true.mjs": {
+			"import": "./true.mjs",
+			"require": "./true.cjs"
+		},
+		"./false.mjs": {
+			"import": "./false.mjs",
+			"require": "./true.cjs"
+		},
+		"./true.cjs": {
+			"require": "./true.cjs",
+			"import": "./true.mjs"
+		},
+		"./false.cjs": {
+			"require": "./false.cjs",
+			"import": "./false.mjs"
+		},
+		"./astro": {
+			"import": {
+				"astro": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"astro": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./browser": {
+			"import": {
+				"browser": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"browser": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./deno": {
+			"import": {
+				"deno": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"deno": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./development": {
+			"import": {
+				"development": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"development": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./node": {
+			"import": {
+				"node": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"node": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./node-addons": {
+			"import": {
+				"node-addons": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"node-addons": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./production": {
+			"import": {
+				"production": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"production": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./solid": {
+			"import": {
+				"solid": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"solid": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./svelte": {
+			"import": {
+				"svelte": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"svelte": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./test": {
+			"import": {
+				"test": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"test": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		}
+	}
+}
