@@ -4,7 +4,7 @@
 	"description": "node conditions as boolean flags",
 	"scripts": {
 		"prepare": "husky install",
-		"format:check": "prettier --ignore-path .gitignore --check .",
+		"format:check": "prettier --ignore-path .gitignore --check . \"!.changeset/**\"",
 		"format": "pnpm format:check --write",
 		"lint:check": "eslint --ignore-path .gitignore .",
 		"lint": "pnpm lint:check --fix",
