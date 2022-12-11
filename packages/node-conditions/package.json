@@ -35,22 +35,6 @@
 			"import": "./index.mjs",
 			"require": "./index.cjs"
 		},
-		"./true.mjs": {
-			"import": "./true.mjs",
-			"require": "./true.cjs"
-		},
-		"./false.mjs": {
-			"import": "./false.mjs",
-			"require": "./true.cjs"
-		},
-		"./true.cjs": {
-			"require": "./true.cjs",
-			"import": "./true.mjs"
-		},
-		"./false.cjs": {
-			"require": "./false.cjs",
-			"import": "./false.mjs"
-		},
 		"./astro": {
 			"import": {
 				"astro": "./true.mjs",
