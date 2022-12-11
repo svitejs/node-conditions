@@ -17,18 +17,8 @@
 				"allowModules": ["node-conditions"]
 			}
 		],
-		"n/no-missing-require": [
-			"error",
-			{
-				"allowModules": ["node-conditions"]
-			}
-		],
-		"n/no-missing-import": [
-			"error",
-			{
-				"allowModules": ["node-conditions"]
-			}
-		],
+		"n/no-missing-require": ["error"],
+		"n/no-missing-import": ["error"],
 		"n/exports-style": ["error", "module.exports"],
 		"n/prefer-global/buffer": ["error", "always"],
 		"n/prefer-global/console": ["error", "always"],
