@@ -10,7 +10,13 @@ const pkgPath = fileURLToPath(new URL('../packages/node-conditions/package.json'
 const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
 
 pkg.exports = {
-	...pkg.exports,
+	// index exports
+	'.': {
+		types: './index.d.ts',
+		import: './index.mjs',
+		require: './index.cjs'
+	},
+	// condition exports
 	...conditions.reduce((exports, condition) => {
 		exports[`./${condition}`] = {
 			import: {
@@ -48,9 +54,10 @@ fs.writeFileSync(typesPath, types, 'utf-8');
 const readmePath = fileURLToPath(new URL('../packages/node-conditions/README.md', import.meta.url));
 let readme = fs.readFileSync(readmePath, 'utf-8');
 readme = readme.replace(
-	/\\n<!-- generated -->[\s\S]*<!-- \/generated -->/m,
+	/\n<!-- generated -->[\s\S]*<!-- \/generated -->\n/m,
 	`
 <!-- generated -->
+
 ## available conditions
 
 ${conditions.map((c) => `- ${name(c)}`).join('\n')}
