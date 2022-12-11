@@ -1,12 +1,8 @@
 {
-  "mode": "pre",
-  "tag": "alpha",
-  "initialVersions": {
-    "node-conditions": "0.9.9"
-  },
-  "changesets": [
-    "beige-clouds-deny",
-    "eleven-rocks-divide",
-    "slimy-insects-agree"
-  ]
+	"mode": "exit",
+	"tag": "alpha",
+	"initialVersions": {
+		"node-conditions": "0.9.9"
+	},
+	"changesets": ["beige-clouds-deny", "eleven-rocks-divide", "slimy-insects-agree"]
 }
