@@ -35,16 +35,6 @@
 			"import": "./index.mjs",
 			"require": "./index.cjs"
 		},
-		"./astro": {
-			"import": {
-				"astro": "./true.mjs",
-				"default": "./false.mjs"
-			},
-			"require": {
-				"astro": "./true.cjs",
-				"default": "./false.cjs"
-			}
-		},
 		"./browser": {
 			"import": {
 				"browser": "./true.mjs",
@@ -52,26 +42,6 @@
 			},
 			"require": {
 				"browser": "./true.cjs",
-				"default": "./false.cjs"
-			}
-		},
-		"./deno": {
-			"import": {
-				"deno": "./true.mjs",
-				"default": "./false.mjs"
-			},
-			"require": {
-				"deno": "./true.cjs",
-				"default": "./false.cjs"
-			}
-		},
-		"./development": {
-			"import": {
-				"development": "./true.mjs",
-				"default": "./false.mjs"
-			},
-			"require": {
-				"development": "./true.cjs",
 				"default": "./false.cjs"
 			}
 		},
@@ -95,6 +65,46 @@
 				"default": "./false.cjs"
 			}
 		},
+		"./deno": {
+			"import": {
+				"deno": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"deno": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./bun": {
+			"import": {
+				"bun": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"bun": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./development": {
+			"import": {
+				"development": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"development": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./test": {
+			"import": {
+				"test": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"test": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
 		"./production": {
 			"import": {
 				"production": "./true.mjs",
@@ -102,6 +112,26 @@
 			},
 			"require": {
 				"production": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./astro": {
+			"import": {
+				"astro": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"astro": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./imba": {
+			"import": {
+				"imba": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"imba": "./true.cjs",
 				"default": "./false.cjs"
 			}
 		},
@@ -122,16 +152,6 @@
 			},
 			"require": {
 				"svelte": "./true.cjs",
-				"default": "./false.cjs"
-			}
-		},
-		"./test": {
-			"import": {
-				"test": "./true.mjs",
-				"default": "./false.mjs"
-			},
-			"require": {
-				"test": "./true.cjs",
 				"default": "./false.cjs"
 			}
 		}

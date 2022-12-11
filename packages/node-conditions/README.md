@@ -52,10 +52,12 @@ const isBrowser = require('node-conditions/browser');
 - NODE
 - NODE_ADDONS
 - DENO
+- BUN
 - DEVELOPMENT
 - TEST
 - PRODUCTION
 - ASTRO
+- IMBA
 - SOLID
 - SVELTE
 <!-- /generated -->

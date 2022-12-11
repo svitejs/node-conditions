@@ -5,6 +5,7 @@ export const conditions = [
 	'node',
 	'node-addons',
 	'deno',
+	'bun',
 
 	// modes
 	'development',
@@ -13,6 +14,7 @@ export const conditions = [
 
 	//frameworks
 	'astro',
+	'imba',
 	'solid',
 	'svelte'
 ];
