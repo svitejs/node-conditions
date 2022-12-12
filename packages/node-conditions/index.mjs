@@ -3,6 +3,7 @@ export { default as NODE } from 'node-conditions/node';
 export { default as NODE_ADDONS } from 'node-conditions/node-addons';
 export { default as DENO } from 'node-conditions/deno';
 export { default as BUN } from 'node-conditions/bun';
+export { default as WORKER } from 'node-conditions/worker';
 export { default as DEVELOPMENT } from 'node-conditions/development';
 export { default as TEST } from 'node-conditions/test';
 export { default as PRODUCTION } from 'node-conditions/production';

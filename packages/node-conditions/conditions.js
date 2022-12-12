@@ -5,11 +5,12 @@ export const conditions = [
 	'node',
 	'node-addons',
 	'deno',
-	'bun',
+	'bun', // maybe used or useful in the future
+	'worker', // used by cloudflare and webpack
 
 	// modes
 	'development',
-	'test',
+	'test', // not officially mentioned in the node docs but inferred from the other 2
 	'production',
 
 	//frameworks

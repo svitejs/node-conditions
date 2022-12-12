@@ -85,6 +85,16 @@
 				"default": "./false.cjs"
 			}
 		},
+		"./worker": {
+			"import": {
+				"worker": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"worker": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
 		"./development": {
 			"import": {
 				"development": "./true.mjs",
