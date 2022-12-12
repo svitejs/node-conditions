@@ -55,6 +55,7 @@ const isBrowser = require('node-conditions/browser');
 - NODE_ADDONS
 - DENO
 - BUN
+- WORKER
 - DEVELOPMENT
 - TEST
 - PRODUCTION

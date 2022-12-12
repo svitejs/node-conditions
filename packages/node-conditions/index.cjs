@@ -3,6 +3,7 @@ module.exports.NODE = require('node-conditions/node');
 module.exports.NODE_ADDONS = require('node-conditions/node-addons');
 module.exports.DENO = require('node-conditions/deno');
 module.exports.BUN = require('node-conditions/bun');
+module.exports.WORKER = require('node-conditions/worker');
 module.exports.DEVELOPMENT = require('node-conditions/development');
 module.exports.TEST = require('node-conditions/test');
 module.exports.PRODUCTION = require('node-conditions/production');
