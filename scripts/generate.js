@@ -18,16 +18,32 @@ pkg.exports = {
 	},
 	// condition exports
 	...conditions.reduce((exports, condition) => {
-		exports[`./${condition}`] = {
-			import: {
-				[condition]: './true.mjs',
-				default: './false.mjs'
-			},
-			require: {
-				[condition]: './true.cjs',
-				default: './false.cjs'
-			}
-		};
+		switch (condition) {
+			case 'import':
+				exports[`./import`] = {
+					import: './true.mjs',
+					default: './false.cjs'
+				};
+				break;
+			case 'require':
+				exports[`./require`] = {
+					require: './true.cjs',
+					default: './false.mjs'
+				};
+				break;
+			default:
+				exports[`./${condition}`] = {
+					import: {
+						[condition]: './true.mjs',
+						default: './false.mjs'
+					},
+					require: {
+						[condition]: './true.cjs',
+						default: './false.cjs'
+					}
+				};
+		}
+
 		return exports;
 	}, {})
 };

@@ -164,6 +164,34 @@
 				"svelte": "./true.cjs",
 				"default": "./false.cjs"
 			}
+		},
+		"./types": {
+			"import": {
+				"types": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"types": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./module": {
+			"import": {
+				"module": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"module": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./import": {
+			"import": "./true.mjs",
+			"default": "./false.cjs"
+		},
+		"./require": {
+			"require": "./true.cjs",
+			"default": "./false.mjs"
 		}
 	}
 }
