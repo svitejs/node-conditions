@@ -193,5 +193,6 @@
 			"require": "./true.cjs",
 			"default": "./false.mjs"
 		}
-	}
+	},
+	"sideEffects": false
 }
