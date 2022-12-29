@@ -63,4 +63,8 @@ const isBrowser = require('node-conditions/browser');
 - IMBA
 - SOLID
 - SVELTE
+- TYPES
+- MODULE
+- IMPORT
+- REQUIRE
 <!-- /generated -->

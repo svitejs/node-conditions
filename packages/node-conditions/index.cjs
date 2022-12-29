@@ -11,3 +11,7 @@ module.exports.ASTRO = require('node-conditions/astro');
 module.exports.IMBA = require('node-conditions/imba');
 module.exports.SOLID = require('node-conditions/solid');
 module.exports.SVELTE = require('node-conditions/svelte');
+module.exports.TYPES = require('node-conditions/types');
+module.exports.MODULE = require('node-conditions/module');
+module.exports.IMPORT = require('node-conditions/import');
+module.exports.REQUIRE = require('node-conditions/require');

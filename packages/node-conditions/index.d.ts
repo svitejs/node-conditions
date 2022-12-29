@@ -11,3 +11,7 @@ export const ASTRO: boolean;
 export const IMBA: boolean;
 export const SOLID: boolean;
 export const SVELTE: boolean;
+export const TYPES: boolean;
+export const MODULE: boolean;
+export const IMPORT: boolean;
+export const REQUIRE: boolean;

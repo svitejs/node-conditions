@@ -11,3 +11,7 @@ export { default as ASTRO } from 'node-conditions/astro';
 export { default as IMBA } from 'node-conditions/imba';
 export { default as SOLID } from 'node-conditions/solid';
 export { default as SVELTE } from 'node-conditions/svelte';
+export { default as TYPES } from 'node-conditions/types';
+export { default as MODULE } from 'node-conditions/module';
+export { default as IMPORT } from 'node-conditions/import';
+export { default as REQUIRE } from 'node-conditions/require';
