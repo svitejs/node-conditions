@@ -1,5 +1,15 @@
 # node-conditions
 
+## 1.1.0
+
+### Minor Changes
+
+- add types, module, import and require conditions ([#11](https://github.com/svitejs/node-conditions/pull/11))
+
+### Patch Changes
+
+- add sideEffects: false to package.json ([#11](https://github.com/svitejs/node-conditions/pull/11))
+
 ## 1.0.0
 
 ### Minor Changes
