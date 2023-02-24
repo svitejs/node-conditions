@@ -95,6 +95,76 @@
 				"default": "./false.cjs"
 			}
 		},
+		"./edge-routine": {
+			"import": {
+				"edge-routine": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"edge-routine": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./workerd": {
+			"import": {
+				"workerd": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"workerd": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./lagon": {
+			"import": {
+				"lagon": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"lagon": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./react-native": {
+			"import": {
+				"react-native": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"react-native": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./netlify": {
+			"import": {
+				"netlify": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"netlify": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./electron": {
+			"import": {
+				"electron": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"electron": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./edge-light": {
+			"import": {
+				"edge-light": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"edge-light": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
 		"./development": {
 			"import": {
 				"development": "./true.mjs",
@@ -162,6 +232,16 @@
 			},
 			"require": {
 				"svelte": "./true.cjs",
+				"default": "./false.cjs"
+			}
+		},
+		"./react-server": {
+			"import": {
+				"react-server": "./true.mjs",
+				"default": "./false.mjs"
+			},
+			"require": {
+				"react-server": "./true.cjs",
 				"default": "./false.cjs"
 			}
 		},

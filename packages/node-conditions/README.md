@@ -56,6 +56,13 @@ const isBrowser = require('node-conditions/browser');
 - DENO
 - BUN
 - WORKER
+- EDGE_ROUTINE
+- WORKERD
+- LAGON
+- REACT_NATIVE
+- NETLIFY
+- ELECTRON
+- EDGE_LIGHT
 - DEVELOPMENT
 - TEST
 - PRODUCTION
@@ -63,6 +70,7 @@ const isBrowser = require('node-conditions/browser');
 - IMBA
 - SOLID
 - SVELTE
+- REACT_SERVER
 - TYPES
 - MODULE
 - IMPORT
