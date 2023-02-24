@@ -1,5 +1,11 @@
 # node-conditions
 
+## 1.2.0
+
+### Minor Changes
+
+- Add runtime keys proposed by wintercg: https://runtime-keys.proposal.wintercg.org/ and react-server ([#13](https://github.com/svitejs/node-conditions/pull/13))
+
 ## 1.1.0
 
 ### Minor Changes
